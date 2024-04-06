@@ -58,21 +58,23 @@
       email: "danielramososielrodrigues@gmail.com",
       dataInscricao: new Date(2024, 2, 28, 20, 30),
       dataCheckIn: new Date(2024, 2, 31, 15, 00)
-    },
+      },
       {
     nome: "Guilherme Gonçalves",
     email: "guigonça@gmail.com",
     dataInscricao: new Date(2024, 2, 24, 15, 45),
     dataCheckIn: new Date(2024, 2, 24, 16, 00)
       },
+      ...
     ]
+    IA ^
   *Estrutura de repetição JS*
 
 for(let participante of participantes) {
   Faça algo
   Enquanto houver objetos / itens
 }
-...
+
   *Descrições decrescentes*
   "const dadosFormulario = new FormData(event.target)" => Target é o alvo do evento encontrado. Nesse caso, o alvo de event é o formulário;
   
