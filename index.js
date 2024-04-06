@@ -3,13 +3,13 @@ let participantes = [
     nome: "Daniel Ramos",
     email: "danielramososielrodrigues@gmail.com",
     dataInscricao: new Date(2024, 2, 28, 20, 30),
-    dataCheckIn: new Date(2024, 2, 31, 15, 00)
+    dataCheckIn: new Date(2024, 2, 31, 15, 19)
   },
   {
     nome: "Guilherme Gonçalves",
     email: "guigonça@gmail.com",
     dataInscricao: new Date(2024, 2, 24, 15, 45),
-    dataCheckIn: new Date(2024, 2, 24, 16, 00)
+    dataCheckIn: new Date(2024, 2, 24, 16, 47)
   },
   {
     nome: "Ana Silva",
@@ -21,7 +21,7 @@ let participantes = [
     nome: "João Oliveira",
     email: "joaooliveira@hotmail.com",
     dataInscricao: new Date(2024, 2, 15, 14, 20),
-    dataCheckIn: new Date(2024, 2, 15, 15, 00)
+    dataCheckIn: new Date(2024, 2, 15, 15, 30)
   },
   {
     nome: "Maria Santos",
@@ -33,13 +33,13 @@ let participantes = [
     nome: "Pedro Almeida",
     email: "pedroalmeida@gmail.com",
     dataInscricao: new Date(2024, 2, 5, 12, 30),
-    dataCheckIn: new Date(2024, 2, 5, 14, 00)
+    dataCheckIn: new Date(2024, 2, 5, 14, 50)
   },
   {
     nome: "Laura Ferreira",
     email: "lauraferreira@gmail.com",
     dataInscricao: new Date(2024, 2, 1, 9, 15),
-    dataCheckIn: new Date(2024, 2, 1, 10, 00)
+    dataCheckIn: new Date(2024, 2, 1, 10, 20)
   },
   {
     nome: "Rafaela Costa",
@@ -56,7 +56,7 @@ let participantes = [
   {
     nome: "Carla Mendes",
     email: "carlamendes@hotmail.com",
-    dataInscricao: new Date(2024, 1, 15, 10, 00),
+    dataInscricao: new Date(2024, 1, 15, 10, 18),
     dataCheckIn: new Date(2024, 1, 16, 9, 15)
   }
 ];
@@ -119,12 +119,12 @@ const adicionarParticipante = (event) => {
   }
 
   const participanteExiste = participantes.find(
-    (p) => p.email == participante.email //normalmente, iria acrescentar o return com a função entre chaves {}, mas não há a necessidade
+    (p) => p.email == participante.email
   )
 
   if(participanteExiste) {
     alert("Email já cadastrado")
-    return //retorna a mensagem e continua o código
+    return
   }
 
   participantes = [participante, ...participantes]
