@@ -1,4 +1,6 @@
-#HTML
+# ANOTAÇÕES PARA ANÁLISE E ESTUDOS PESSOAIS
+
+# HTML
   *O que é?*
       O svg é um formato muito bom para manter a qualidade de logos
   *Tag table*
@@ -8,7 +10,7 @@
       Exemplo: body, head, foot, div, section, etc
   *Tag Form*
     Onsubmit permite o uso de uma função específica pelo formulário
-#JavaScript
+# JavaScript
   *O que é?*
     Const é uma instrução para criação de variável constante
     Variáveis permitem a organização de dados
@@ -80,7 +82,7 @@ for(let participante of participantes) {
   
   
 
-#CSS (Cascading Style Sheets)
+# CSS (Cascading Style Sheets)
   *Descrições decrescentes*
     "*" => (Seletor universal) Permite a alteração de elementos ocultos gerais;
     "box-sizing: border-box;" => Permite o reset de toda a borda até antes do conteúdo (borda-caixa | borda-a-borda) Permite a união da borda e das caixas de conteúdo;
@@ -94,5 +96,5 @@ for(let participante of participantes) {
     font-weight: 600 => Torna a fonte mais fina ou grossa;
 
     
-#Plugins externos
+# Plugins externos
 https://day.js.org/en/ - Para a programação de datas e tempo relativo
