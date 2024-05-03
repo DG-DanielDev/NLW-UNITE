@@ -1,7 +1,7 @@
 # ANOTAÇÕES PARA ANÁLISE E ESTUDOS PESSOAIS
 
 # HTML
-  *O que é?*
+  *O que é? /n/*
       O svg é um formato muito bom para manter a qualidade de logos
   *Tag table*
     A tag thead é uma parte head específica da tag table
